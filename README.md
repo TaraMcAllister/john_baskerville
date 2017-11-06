@@ -1,4 +1,6 @@
-# john_baskervilleIXD101 Interaction Design Fundamentals
+
+
+#IXD101 Interaction Design Fundamentals
 ======================================
 
 John Baskerville
