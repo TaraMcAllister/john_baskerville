@@ -9,5 +9,4 @@ John Baskerville
 
 History of Type
 ---------------
--[History of Type]
-(https://taramcallister.github.io/john_baskerville/history_of_type.html)
+- [History of Type](https://taramcallister.github.io/john_baskerville/history_of_type.html)
