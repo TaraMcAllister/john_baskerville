@@ -7,6 +7,7 @@ John Baskerville
 ----------------
 - [John Baskerville First Draft](https://taramcallister.github.io/john_baskerville/johnbasker1.html)
 - [John Baskerville Second Draft](https://taramcallister.github.io/john_baskerville/johnbasker2.html)
+- [John Baskerville Third Draft](https://taramcallister.github.io/john_baskerville/johnbasker3.html)
 
 History of Type
 ---------------
