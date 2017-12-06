@@ -1,0 +1,122 @@
+/* ------- CSS RESET -----*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+}
+
+body {
+    width: 75%;
+    max-width: 760px;
+    margin: auto;
+    background: #FFFEFE;
+    color: #333;
+    line-height; 2em;
+}
+/* ---- HEADERS ---- */
+
+header {margin: 0em 3em 3em 0em}
+
+header h2 {
+    font-size: 1.8em;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-weight: normal;
+    color: black;
+    text-align: left;
+}
+
+/* ----- TYPE ------*/
+
+#one {
+    font-family: 'Libre Baskerville', 'Georgia', serif;
+}
+
+#two {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#three {
+    font-family: 'Arvo', serif;
+}
+
+/* ---- MARGINS FOR HEADERS, BLOCKQUOTE AND P TAGS ---- */
+
+h1 {
+    font-size: 4em;
+    margin-top: -0.2em;
+    margin-bottom: .1em;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: .5em;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-top: 3em;
+    margin-bottom: 0.7em;
+    text-transform: uppercase;
+}
+.amp {
+font-family: Baskerville, 'Goudy Old Style', Palatino, 'Book Antiqua', serif;
+font-style: italic;
+font-weight: normal;
+}
+
+p {
+    margin-bottom: 1.5em;
+    line-height: 1.5em;
+    font-size: 1em;
+}
+
+p.mainone:first-letter {
+    float: left;
+    font-size: 5em;
+    line-height:0.5em;
+    font-weight: bold;
+}
+
+.intro {
+    margin-bottom: 1.5em;
+    line-height: 1.5em;
+    font-size: 1.3em;
+}
+
+blockquote {
+    padding: 1em 0 2em 0;
+    font-size: 1.25em;
+    font-style: italic;
+    line-height: 1.4em;
+    color: lightgrey;
+}
+
+blockquote cite {
+    font-size: .75em;
+}
+
+blockquote p {
+    hanging-punctuation: first;
+    text-indent: -0.3em;
+}
+
+hr { 
+    display: block;
+    border-color: lightpink;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+footer {
+    margin-top: 1.5em;
+}
