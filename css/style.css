@@ -1,0 +1,199 @@
+/* ----- CSS RESET------*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+}
+
+body {
+    width: 75%;
+    max-width: 760px;
+    margin: auto;
+    background: #FFFEFE;
+    color: #333;
+    line-height; 1.8em;
+}
+
+/* --- LINKS ---- */
+
+a {
+    color: #FF8B00;
+    text-decoration: none;
+}
+
+a:hover {
+    colour: #0079B2;
+    border-bottom: 1px dotted;
+}
+
+/* ----- NAVIGATION AND UL LISTS AND LI ---- */
+
+nav {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    margin: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 1em 0em;
+}
+
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+    
+nav ul li {
+        display : inline;
+        margin: 20px;
+    }
+
+nav a:visited {
+    color: #0079B2;
+}
+
+nav a:hover {
+    border-bottom: none;
+    color: #FFFFFF;
+}
+/* ---- HEADERS ---- */
+
+header {margin: 6em 3em 3em 0em}
+
+header h2 {
+    font-family: Libra Baskerville, 'Georgia', serif;x
+    font-style: italic;
+    font-size: 1.8em;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-family: Libre Baskerville, 'Georgia', serif;
+    font-weight: normal;
+    color: #88D9FF;
+    text-align: center;
+}
+
+/* ---- MARGINS FOR HEADERS, BLOCKQUOTE AND P TAGS ---- */
+
+p, li,  blockquote {
+    font-family: Raleway, 'Arial', sans-serif;
+    font-style: normal;
+    margin-bottom: 1.5em;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 4em;
+    margin-top: 1em;
+    margin-bottom: .1em;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: .5em;
+}
+
+blockquote {
+    padding: 1em 0 2em 0;
+    font-size: 1.25em;
+    font-family: raleway, 'arial', sans-serif;
+    font-style: italic;
+    line-height: 1.4em;
+    color: #777;
+}
+
+blockquote cite {
+    font-size: .75em;
+}
+
+blockquote p {
+    hanging-punctuation: first;
+    text-indent: -0.3em;
+}
+
+/* ---- IMAGES ---- */
+
+img {
+    display: block;
+    margin : 4em auto;
+    padding: 0;
+    max-width: 100%;
+}
+
+/* ---- CSS for table ---- */
+
+table {
+    margin: auto;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+    font-size: 1.25em;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 2px;
+}
+
+table, tr {
+    color: #333;  
+}
+
+th {
+    text-transform: uppercase;
+    text-align: center;
+    background: #333;
+    color: white;
+    font-family: Libra Baskerville, 'Georgia', serif;   
+}
+
+th, td {
+    color: #333;
+    padding: 0.7em;
+}
+
+table, td{
+    border: 1px, solid #333;
+    font-family: Raleway, 'Arial', sans-serif;
+}
+
+caption {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 0.5em;
+    font-family: Libre Baskervile, 'Georgia', serif;    
+}
+
+tr, th {
+    color: #FFF;
+    text-align: left;
+}
+
+/* ---- DIV NAMED BOTTOM LINKS - TO GET CENTRED ---- */
+
+#bottom-links {
+    text-align: center;
+    font-family: Raleway, 'Arial', sans-serif;
+    font-style: bold;
+    margin-bottom:0.5em;
+    }
+
+#bottom-links>a {
+    margin-left:30px;}
+
+/* ---- footer ------ */
+
+footer {
+    text-align: center;
+    font-size: 0.75em;
+    line-height: 1.5em;
+    padding-bottom: 2em;
+}
+
+footer-small {
+    text-align: left;
+}
+
+footer hr {
+    margin-bottom: 3em;
+}
