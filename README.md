@@ -17,3 +17,7 @@ John Baskerville
 History of Type
 ---------------
 - [History of Type](https://taramcallister.github.io/john_baskerville/history_of_type.html)
+
+Typographic Exercise
+---------------
+- [Typographic Excercise](https://taramcallister.github.io/john_baskerville/typographic_exercise.html)
