@@ -10,7 +10,7 @@
 body {
     width: 75%;
     max-width: 760px;
-    font-family: Georgia, 'Times New Roman' serif;
+    font-family: Montserrat, 'Arial', serif;
     margin: auto;
     background: #F0F0F0;
     color: #333;
@@ -19,7 +19,8 @@ body {
 
 header {margin: 6em 3em 3em 0em}
 
-header h2 {
+header h3 {
+    font: Merriweather, 'Garamond', sans-serif;
     font-style: italic;
     font-size: 1.8em;
     color: #333;
@@ -28,12 +29,17 @@ header h2 {
 /* --- LINKS ---- */
 
 a {
-    color: #FFFFFF;
+    color: #5CF7FF;
     text-decoration: none;
 }
 
+a.top {
+    text-align: center;
+    text-transform: uppercase;
+}
+
 a:hover {
-    colour: #006341;
+    colour: #A9FBFF;
     border-bottom: 1px dotted;
 }
 
@@ -43,7 +49,7 @@ nav {
     left: 0px;
     margin: 0;
     width: 100%;
-    background-color: #333;
+    background-color: #547D7F;
     padding: 1em 0em;
 }
 
@@ -58,7 +64,7 @@ nav ul li {
     }
 
 nav a:visited {
-    color: #006341;
+    color: #A9FBFF;
 }
 
 nav a:hover {
@@ -70,7 +76,8 @@ nav a:hover {
 
 h1, h2, h3 {
     font-weight: normal;
-    color: darkmagenta;
+    font: Merriweather, 'Garamond', sans-serif;
+    color: 4AC5CC;
     text-align: center;
 }
 
@@ -92,7 +99,7 @@ h3 {
 
 blockquote {
     padding: 1em 0 0.5em 0;
-    font-size: 1.75em;
+    font-size: 1.5em;
     line-height: 1.4em;
     color: #777;
 }
@@ -108,12 +115,49 @@ img {
     max-width: 100%;
 }
 
+table {
+    margin: auto;
+    margin-bottom: 1.5em;
+    margin-top: 1em;
+    font-size: 1.25em;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 2px;
+}
+
+table, tr {
+    color: #333;
+}
+
+th {
+    text-align: center;
+    color: white;
+}
+
+th, td {
+    color: #333;
+    padding: 0.7em;
+}
+
+table, td{
+    border: 1px, solid #333;
+    font-family: Raleway, 'Arial', sans-serif;
+}
+
+caption {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 1em;
+    font-family: Libre Baskervile, 'Georgia', serif;    
+}
+
 /* ---- footer ------ */
 
 footer {
     text-align: center;
     font-size: 0.75em;
     line-height: 1.5em;
+    padding-top: 2em; 
     padding-bottom: 2em;
 }
 

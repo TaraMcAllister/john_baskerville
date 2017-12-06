@@ -17,11 +17,13 @@ John Baskerville
 History of Type
 ---------------
 - [History of Type - Initial Markup](https://taramcallister.github.io/john_baskerville/history_of_type.html)
-- [History of Type - Nested Lists and Navigation]
+- [History of Type - Nested List and Navigation](https://taramcallister.github.io/john_baskerville/history_of_type2.html)
 
-- [History of Type - Tables]
+Tables
 
-- [History of Type - CSS]
+CSS
+
+
 
 Typographic Exercise
 ---------------
